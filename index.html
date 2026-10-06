@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathys Eustache - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <span class="logo">Mathys Eustache</span>
+            <div class="nav-links">
+                <a href="#about">À propos</a>
+                <a href="#projects">Projets</a>
+                <a href="#skills">Compétences</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero section-reveal">
+        <div class="container">
+            <p class="subtitle">Développeur Full Stack & Data</p>
+            <h1 class="title">Conception logicielle et exploitation de données.</h1>
+            <p class="description">
+                Actuellement en 2ème année de Bachelor IA & Data à Ynov Campus Aix-en-Provence. 
+                Je recherche un stage pour ma 2ème année et une alternance pour ma 3ème année. 
+                Mes premières expériences en administration système m'ont doté d'une excellente capacité de résolution de problèmes.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="https://github.com/Mathys-Eustache" target="_blank" class="btn btn-outline">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="container section-reveal">
+        <h2 class="section-title">Projets Récents</h2>
+        <div class="grid">
+            <article class="card">
+                <span class="card-tag">Backend & Sécurité</span>
+                <h3>NBA TalkZone</h3>
+                <p>Développement du backend sécurisé (architecture MVC, authentification JWT, hachage SHA-512) et modélisation de la base de données relationnelle.</p>
+                <div class="tech-stack">
+                    <span>Go</span>
+                    <span>MySQL</span>
+                </div>
+            </article>
+
+            <article class="card">
+                <span class="card-tag">Full Stack</span>
+                <h3>Archives Harry Potter</h3>
+                <p>Conception d'une application web avec consommation d'une API externe, intégration d'un système de filtres avancés et recherche dynamique.</p>
+                <div class="tech-stack">
+                    <span>Go</span>
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                </div>
+            </article>
+
+            <article class="card">
+                <span class="card-tag">Backend API</span>
+                <h3>Boutique E-commerce</h3>
+                <p>Création de la logique métier backend et des routes API pour gérer un catalogue, des filtres et les stocks en temps réel via des fichiers JSON.</p>
+                <div class="tech-stack">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills" class="container section-reveal">
+        <h2 class="section-title">Compétences Techniques</h2>
+        <div class="grid skills-grid">
+            <div class="skill-category">
+                <h3>Développement Web</h3>
+                <ul>
+                    <li>Python (POO), Go, TypeScript, JavaScript</li>
+                    <li>React, HTML5, CSS Modules</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Données & API</h3>
+                <ul>
+                    <li>Manipulation de données, requêtes API</li>
+                    <li>SQL, Postman</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Systèmes & Réseaux</h3>
+                <ul>
+                    <li>Environnements Linux & Windows</li>
+                    <li>Virtualisation (VirtualBox, VMware)</li>
+                    <li>Simulation réseau (Cisco Packet Tracer)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div>
+                <h2>Prêt à collaborer ?</h2>
+                <p>N'hésitez pas à me contacter pour échanger sur vos opportunités.</p>
+            </div>
+            <div class="contact-info">
+                <a href="mailto:mathyseustpro@gmail.com">mathyseustpro@gmail.com</a>
+                <p>06 98 57 66 86</p>
+                <p>13100 Aix-en-Provence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
